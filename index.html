@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>我的小站</title>
+    <title>LEOCKER的游戏宇宙</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: #f5f5f5;
+            font-family: 'Arial', sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        nav {
+            background: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .game {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 30px auto;
+        }
+        h1 {
+            color: #ff6b6b;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>网站搭建成功！</h1>
-    <p>这是我的第一个网站。</p>
-    <!-- 稍后你可以在这里粘贴从Arcade复制的游戏嵌入代码 -->
+    <nav>
+        <a href="#doge">太空狗</a> | 
+        <a href="#snake">贪吃蛇</a> | 
+        <a href="#puzzle">解谜游戏</a>
+    </nav>
+
+    <h1>🎮 欢迎来到我的游戏站！</h1>
+    <p>精选HTML5小游戏合集，点击即可畅玩~</p>
+
+    <div class="game" id="doge">
+        <h2>1. 太空狗狗大冒险</h2>
+        <iframe src="https://arcade.ly/games/doge/embed" width="100%" height="600" frameborder="0"></iframe>
+    </div>
+
+    <div class="game" id="snake">
+        <h2>2. 经典贪吃蛇</h2>
+        <iframe src="https://arcade.ly/games/snake/embed" width="100%" height="600"></iframe>
+    </div>
 </body>
 </html>
 
